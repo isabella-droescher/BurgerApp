@@ -14,15 +14,14 @@ Jetpack Compose + Kotlin, iOS + SwiftUI, React / NextJS + Typescript, …).
 
 Tasks:
 ---------------------------
-◦ Create the UI considering the provided mockups (overview & detail).
+◦ Create the UI with overview & detail screen.
 
 ◦ Create the architecture of the app (model, structure, etc.) to the best of your abilities
 (clean code, maintainability, acknowledge platform specific guidelines, ...).
 
 ◦ Make sure optimal UX is maintained throughout the app.
 
-◦ Fetch the restaurant.json (take a look at the provided data) from the server when the
-app launches, display the overview:
+◦ Fetch the restaurant.json when the app launches, display the overview:
 
     -> Restaurant name and address
 
@@ -33,7 +32,7 @@ app launches, display the overview:
 ◦ The entire overview should be scrollable to handle an indefinite number of burgers /
 drinks.
 
-◦ If a burger is currently available or not can be determined based on the provided
+X If a burger is currently available or not can be determined based on the provided
 availability dates.
 
 ◦ When clicking a burger or drink, the detail page should appear.
