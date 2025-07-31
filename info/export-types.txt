@@ -1,4 +1,0 @@
-| Export-Typ      | Syntax beim Export            | Syntax beim Import                  |
-| --------------- | ----------------------------- | ----------------------------------- |
-| Default         | `export default function...`  | `import fn from './file'`           |
-| Named (mehrere) | `export function fn1() {...}` | `import { fn1, fn2 } from './file'` |
