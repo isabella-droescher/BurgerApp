@@ -4,10 +4,13 @@ Mobile / Web Developer challenge: Create an app
 Objective:
 ---------------------------
 
-◦  Create a mobile or web application based on the provided UI mockups
-◦  Use restaurant.json to fetch the restaurant data
+◦  Create a mobile or web application based on the provided UI mockups.
+
+◦  Use restaurant.json to fetch the restaurant data.
+
 ◦  Use a platform / framework / programming language of your choice (e.g. Android with
-Jetpack Compose + Kotlin, iOS + SwiftUI, React / NextJS + Typescript, …)
+Jetpack Compose + Kotlin, iOS + SwiftUI, React / NextJS + Typescript, …).
+
 
 Tasks:
 ---------------------------
