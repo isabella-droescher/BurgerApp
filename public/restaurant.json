@@ -1,0 +1,132 @@
+{
+  "restaurant": [
+    {
+      "name": "Ahoi Burger!",
+      "address": "Road 1, 4020 Linz, Austria"
+    }
+  ],
+  "burgers": [
+    {
+      "id": "1",
+      "name": "Big Burger",
+      "price": 9.99,
+      "weight": 180,
+      "image": "/images/big-burger.jpg"
+    },
+    
+    {
+      "id": "2",
+      "name": "Small Burger",
+      "price": 5.99,
+      "weight": 140,
+      "image": "/images/small-burger.jpg"
+    },
+
+    {
+      "id": "3",
+      "name": "Medium Burger",
+      "price": 7.99,
+      "weight": 120,
+      "image": "/images/medium-burger.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Veggie Burger",
+      "price": 8.99,
+      "weight": 100,
+      "image": "/images/medium-burger.jpg"
+    }
+
+  ],
+  "drinks": [
+    {
+      "id": "1",
+      "name": "Long Island Ice Tea",
+      "image": "/images/iced-tea.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Orange Juice",
+      "image": "/images/orange-juice.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Coffee",
+      "image": "/images/coffee.jpg"
+    }
+  ], 
+
+  "burgerdetails": [
+    {
+      "id": "1",
+      "name": "Big Burger",
+      "description": "A big burger with a juicy beef patty, fresh lettuce, tomato, and our special sauce.",
+      "price": 9.99,
+      "weight": 180,
+      "vegetarian": false,
+      "ingredients": ["Bacon", "Tomatoes"],
+      "allergens": ["Gluten"],
+      "image": "/images/big-burger-details.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Small Burger",
+      "description": "A small burger with a tender beef patty, crisp lettuce, and tomato.",
+      "price": 5.99,
+      "weight": 140,
+      "vegetarian": false,
+      "ingredients": ["Crisp Lettuce", "Tomatoes"],
+      "allergens": ["Gluten"],
+      "image": "/images/big-burger-details.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Medium Burger",
+      "description": "A medium-sized burger with a flavorful beef patty, fresh vegetables, and our signature sauce.",
+      "price": 7.99,
+      "weight": 120,
+      "vegetarian": false,
+      "ingredients": ["Vegetables", "Signature Sauce"],
+      "allergens": ["Lactose"],
+      "image": "/images/big-burger-details.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Veggie Burger",
+      "description": "A vegetarian burger with fresh vegetables",
+      "price": 8.99,
+      "weight": 100,
+      "vegetarian": true,
+      "ingredients": ["Vegetables", "Signature Sauce"],
+      "allergens": ["Gluten"],
+      "image": "/images/big-burger-details.jpg"
+    }
+  ], 
+
+  "drinkdetails":[
+    {"id": "1",
+      "name": "Long Island Ice Tea",
+      "description": "Long Island Iced Tea is a classic cocktail that combines a mix of several spirits (vodka, light rum, tequila, gin, and triple sec) topped with cola and garnished with a lemon or lime slice. Despite its name, this potent cocktail doesn't contain any tea, but its color resembles iced tea.",
+      "price": 12.99,
+      "ingredients": ["Coca Cola", "Vodka", "Light rum", "Tequila", "Triple sec", "Gin"],
+      "image": "/images/iced-tea.jpg"
+    },
+
+    {"id": "2",
+      "name": "Orange Juice",
+      "description": "Fresh pressed orange juice",
+      "price": 5.99,
+      "ingredients": ["100% Orange"],
+      "image": "/images/orange-juice.jpg"
+    },
+
+    {"id": "3",
+      "name": "Coffee",
+      "description": "Strong coffee with cream",
+      "price": 3.80,
+      "ingredients": ["Coffein"],
+      "image": "/images/coffee.jpg"
+    }
+
+  ]
+}

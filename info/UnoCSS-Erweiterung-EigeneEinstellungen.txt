@@ -1,0 +1,46 @@
+1. Erstelle oder erweitere deine UnoCSS-Konfiguration
+
+// uno.config.ts
+import { defineConfig, presetUno } from 'unocss'
+
+export default defineConfig({
+  presets: [
+    presetUno(),
+  ],
+  theme: {
+    colors: {
+      // Eigene Farben hinzufügen
+      brandBlue: '#1E40AF',  // Beispiel dunkles Blau
+      brandPink: '#DB2777',
+    },
+    fontSize: {
+      // Eigene Schriftgrößen (z.B. text-xxl)
+      xxl: '2.5rem',    // 40px
+      huge: '4rem',     // 64px
+    },
+  },
+})
+
+2. Update vite.config.ts, damit die Config geladen wird
+
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import UnoCSS from 'unocss/vite'
+import unoConfig from './uno.config'
+
+export default defineConfig({
+  plugins: [
+    react(),
+    UnoCSS(unoConfig),
+  ],
+})
+
+3. Beispiel: Nutzung eigener Farben und Größen in React
+
+export default function CustomHeader() {
+  return (
+    <h1 className="text-xxl font-bold text-brandBlue">
+      Meine eigene riesige Überschrift mit Brand Blue
+    </h1>
+  )
+}

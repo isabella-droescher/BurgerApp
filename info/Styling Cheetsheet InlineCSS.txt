@@ -1,0 +1,68 @@
+📐 Spacing (Abstand)
+---------------------
+p-4            → Padding (alle Seiten) = Innenabstand zwischen Inhalt und Rand
+pt-2           → Padding oben
+Py-2	       → Padding oben/unten
+px-6           → Padding links/rechts
+m-4            → Margin (alle Seiten) = Aussenabstand zwischen Element und anderen Element
+mt-2           → Margin oben
+mx-auto        → Automatisch horizontal zentrieren
+space-y-8      → vertikaler Abstand zwischen den Kindelementen
+
+🧱 Layout & Display
+--------------------- 
+flex           → Flexbox aktivieren
+flex-col       → Spaltenlayout
+justify-center → Zentrierung horizontal
+grid           → Grid aktivieren
+grid-cols-3    → 3 Spalten 
+block          → Block-Element
+hidden         → Nicht anzeigen
+items-center   → Zentrierung vertikal
+
+
+🔤 Text & Schrift
+---------------------
+text-sm        → Kleine Schrift
+text-2xl       → Große Schrift
+font-bold      → Fett
+text-center    → Zentrierter Text
+text-gray-500  → Graue Textfarbe
+tracking-wide  → Buchstabenabstand
+leading-tight  → Zeilenhöhe
+
+🎨 Farben
+---------------------
+bg-blue-500    → Hintergrundfarbe
+text-white     → Textfarbe weiß
+hover:bg-blue-700 → Hover-Hintergrundfarbe
+bg-[#1e90ff]   → Custom-Hintergrundfarbe
+
+🧲 Größe & Rahmen
+---------------------
+w-64           → Breite (16rem)
+h-32           → Höhe (8rem)
+max-w-md       → Max. Breite Medium
+rounded-lg     → Abgerundete Ecken
+border         → Rahmen anzeigen
+border-gray-200→ Rahmenfarbe
+
+🌗 Dark Mode & Media Queries
+---------------------
+dark:bg-black          → Dark Mode Hintergrund
+hover:(...)            → Gruppierte Effekte
+sm:text-xl             → Textgröße ab Breakpoint sm
+
+⚙️ Animation & Effekte
+---------------------
+transition             → Transition aktivieren
+transition-all         → Alle Eigenschaften
+hover:scale-105        → Hover-Vergrößerung
+duration-300           → 300ms Übergang
+shadow-lg              → Großer Schatten
+
+🎁 Freie Werte
+---------------------
+text-[22px]            → Benutzerdefinierte Schriftgröße
+bg-[#1e90ff]           → Custom-Farbe
+"""
