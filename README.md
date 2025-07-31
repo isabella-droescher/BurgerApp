@@ -1,4 +1,4 @@
-Mobile / Web Developer challenge: Create an app
+Mobile / Web Developer challenge: Create an app (In Progress)
 ---------------------------
 
 Objective:

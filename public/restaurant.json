@@ -1,40 +1,40 @@
 {
   "restaurant": [
     {
-      "name": "Ahoi Burger!",
-      "address": "Road 1, 4020 Linz, Austria"
+      "name": "Happy Burger!",
+      "address": "Burgerstrasse 40, 4040 Linz, Austria"
     }
   ],
   "burgers": [
     {
       "id": "1",
-      "name": "Big Burger",
-      "price": 9.99,
+      "name": "Big Burger with Fries",
+      "price": 12.99,
       "weight": 180,
-      "image": "/images/big-burger.jpg"
+      "image": "/images/b-burger.jpg"
     },
     
     {
       "id": "2",
-      "name": "Small Burger",
+      "name": "Small Breaded Chicken Burger",
       "price": 5.99,
-      "weight": 140,
-      "image": "/images/small-burger.jpg"
+      "weight": 90,
+      "image": "/images/s-burger.jpg"
     },
 
     {
       "id": "3",
-      "name": "Medium Burger",
+      "name": "Medium Fish Burger",
       "price": 7.99,
       "weight": 120,
-      "image": "/images/medium-burger.jpg"
+      "image": "/images/m-burger.jpg"
     },
     {
       "id": "4",
       "name": "Veggie Burger",
       "price": 8.99,
-      "weight": 100,
-      "image": "/images/medium-burger.jpg"
+      "weight": 140,
+      "image": "/images/v-burger.jpg"
     }
 
   ],
@@ -59,47 +59,47 @@
   "burgerdetails": [
     {
       "id": "1",
-      "name": "Big Burger",
-      "description": "A big burger with a juicy beef patty, fresh lettuce, tomato, and our special sauce.",
-      "price": 9.99,
+      "name": "Big Burger with Fries",
+      "description": "A big burger with beef, salad and sauce on several layers with fries.",
+      "price": 12.99,
       "weight": 180,
       "vegetarian": false,
-      "ingredients": ["Bacon", "Tomatoes"],
+      "ingredients": ["Beef", "Salad"],
       "allergens": ["Gluten"],
-      "image": "/images/big-burger-details.jpg"
+      "image": "/images/b-burger.jpg"
     },
     {
       "id": "2",
-      "name": "Small Burger",
-      "description": "A small burger with a tender beef patty, crisp lettuce, and tomato.",
+      "name": "Small Breaded Chicken Burger",
+      "description": "A small burger with breaded chicken and vegetables, tomatoes and sauce",
       "price": 5.99,
-      "weight": 140,
+      "weight": 90,
       "vegetarian": false,
-      "ingredients": ["Crisp Lettuce", "Tomatoes"],
+      "ingredients": ["Breaded Chicken", "Tomatoes"],
       "allergens": ["Gluten"],
-      "image": "/images/big-burger-details.jpg"
+      "image": "/images/s-burger.jpg"
     },
     {
       "id": "3",
-      "name": "Medium Burger",
-      "description": "A medium-sized burger with a flavorful beef patty, fresh vegetables, and our signature sauce.",
+      "name": "Medium Fish Burger",
+      "description": "A medium-sized burger with baked fish and garlic sauce.",
       "price": 7.99,
       "weight": 120,
-      "vegetarian": false,
-      "ingredients": ["Vegetables", "Signature Sauce"],
-      "allergens": ["Lactose"],
-      "image": "/images/big-burger-details.jpg"
+      "vegetarian": true,
+      "ingredients": ["Fish", "Garlic Sauce"],
+      "allergens": ["Lactose", "Gluten"],
+      "image": "/images/m-burger.jpg"
     },
     {
       "id": "4",
       "name": "Veggie Burger",
-      "description": "A vegetarian burger with fresh vegetables",
+      "description": "A vegetarian burger with fresh vegetables.",
       "price": 8.99,
-      "weight": 100,
+      "weight": 140,
       "vegetarian": true,
-      "ingredients": ["Vegetables", "Signature Sauce"],
+      "ingredients": ["Tomatoes", "Onions", "Zucchini", "Mushrooms"],
       "allergens": ["Gluten"],
-      "image": "/images/big-burger-details.jpg"
+      "image": "/images/v-burger.jpg"
     }
   ], 
 
