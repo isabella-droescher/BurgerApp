@@ -93,17 +93,20 @@
     {
       "id": "1",
       "name": "Long Island Ice Tea",
-      "image": "/images/iced-tea.jpg"
+      "image": "/images/iced-tea.jpg",
+      "available": true
     },
     {
       "id": "2",
       "name": "Orange Juice",
-      "image": "/images/orange-juice.jpg"
+      "image": "/images/orange-juice.jpg",
+      "available": true
     },
     {
       "id": "3",
       "name": "Coffee",
-      "image": "/images/coffee.jpg"
+      "image": "/images/coffee.jpg",
+      "available": false
     }
   ],
 

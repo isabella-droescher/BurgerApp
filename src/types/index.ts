@@ -37,6 +37,7 @@ export type DrinkProps =  {
 // name, image, onClick, description, price, ingredients!
 export type DrinkClickProps = DrinkProps & {
   onClick?: () => void; 
+  available: boolean;
 }
 
 // Drinkprops phne onClick --> name, image, description, price, ingedients
