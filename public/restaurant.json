@@ -11,15 +11,17 @@
       "name": "Big Burger with Fries",
       "price": 12.99,
       "weight": 180,
-      "image": "/images/b-burger.jpg"
+      "image": "/images/b-burger.jpg",
+      "available": true
     },
-    
+
     {
       "id": "2",
       "name": "Small Breaded Chicken Burger",
       "price": 5.99,
       "weight": 90,
-      "image": "/images/s-burger.jpg"
+      "image": "/images/s-burger.jpg",
+      "available": false
     },
 
     {
@@ -27,34 +29,18 @@
       "name": "Medium Fish Burger",
       "price": 7.99,
       "weight": 120,
-      "image": "/images/m-burger.jpg"
+      "image": "/images/m-burger.jpg",
+      "available": true
     },
     {
       "id": "4",
       "name": "Veggie Burger",
       "price": 8.99,
       "weight": 140,
-      "image": "/images/v-burger.jpg"
+      "image": "/images/v-burger.jpg",
+      "available": true
     }
-
   ],
-  "drinks": [
-    {
-      "id": "1",
-      "name": "Long Island Ice Tea",
-      "image": "/images/iced-tea.jpg"
-    },
-    {
-      "id": "2",
-      "name": "Orange Juice",
-      "image": "/images/orange-juice.jpg"
-    },
-    {
-      "id": "3",
-      "name": "Coffee",
-      "image": "/images/coffee.jpg"
-    }
-  ], 
 
   "burgerdetails": [
     {
@@ -101,18 +87,45 @@
       "allergens": ["Gluten"],
       "image": "/images/v-burger.jpg"
     }
-  ], 
+  ],
 
-  "drinkdetails":[
-    {"id": "1",
+  "drinks": [
+    {
+      "id": "1",
+      "name": "Long Island Ice Tea",
+      "image": "/images/iced-tea.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Orange Juice",
+      "image": "/images/orange-juice.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Coffee",
+      "image": "/images/coffee.jpg"
+    }
+  ],
+
+  "drinkdetails": [
+    {
+      "id": "1",
       "name": "Long Island Ice Tea",
       "description": "Long Island Iced Tea is a classic cocktail that combines a mix of several spirits (vodka, light rum, tequila, gin, and triple sec) topped with cola and garnished with a lemon or lime slice. Despite its name, this potent cocktail doesn't contain any tea, but its color resembles iced tea.",
       "price": 12.99,
-      "ingredients": ["Coca Cola", "Vodka", "Light rum", "Tequila", "Triple sec", "Gin"],
+      "ingredients": [
+        "Coca Cola",
+        "Vodka",
+        "Light rum",
+        "Tequila",
+        "Triple sec",
+        "Gin"
+      ],
       "image": "/images/iced-tea.jpg"
     },
 
-    {"id": "2",
+    {
+      "id": "2",
       "name": "Orange Juice",
       "description": "Fresh pressed orange juice",
       "price": 5.99,
@@ -120,13 +133,13 @@
       "image": "/images/orange-juice.jpg"
     },
 
-    {"id": "3",
+    {
+      "id": "3",
       "name": "Coffee",
       "description": "Strong coffee with cream",
-      "price": 3.80,
+      "price": 3.8,
       "ingredients": ["Coffein"],
       "image": "/images/coffee.jpg"
     }
-
   ]
 }

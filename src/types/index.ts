@@ -10,6 +10,7 @@ export type BurgerProps = {
   price: number;
   weight: number;
   image: string;
+  available: boolean;
   onClick?: () => void; // Optional click handler for the burger
 };
 
