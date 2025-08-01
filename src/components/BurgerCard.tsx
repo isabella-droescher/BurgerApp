@@ -15,11 +15,17 @@ export const Burgercard = ({ name, price, weight, image, available, onClick }: B
 
         {/* Zusammengefasste Version: */}
         <img
-         src={available ? image : "/images/not-available.jpg"}   // Optional: Extra Image (image2) in .json für jedes Element anders anlegen
+         src={image}   
          alt={name} 
          onClick={available ? onClick : undefined} 
-         className={`w-full h-30 object-cover ${!available ? '' : 'cursor-pointer'}`} 
+         className={`w-full h-30 object-cover ${!available ? 'grayscale opacity-70' : 'cursor-pointer'}`} 
          />
+
+         {!available && ( 
+          <div className="absolute inset-0 bg-black/50 rounded-xl flex items-center justify-center">
+          <span className="text-black text-s bg-white rounded-xl font-semibold text-center px-5"> Currently not available </span>
+         </div>
+         )}
 
          <div className={`absolute top-20 right-1.5 text-white px-3 py-1 text-sm rounded-full ${!available ? 'line-through bg-red-700' : 'bg-sky-400' }`}> {price.toFixed(2)} USD </div> 
       </div>

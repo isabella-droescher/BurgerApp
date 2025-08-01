@@ -17,7 +17,7 @@ export const Drinkscard = ({ name, image, available, onClick }: DrinkClickProps)
 
          {!available && (
          <div className="absolute inset-0 bg-black/50 rounded-xl flex items-center justify-center">
-          <span className="text-red-200 text-[10px] font-semibold text-center"> Currently not available </span>
+          <span className="text-black text-[9px] bg-white rounded-xl font-semibold text-center"> Currently not available </span>
          </div>
         )}
         </div>
