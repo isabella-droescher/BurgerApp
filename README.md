@@ -32,7 +32,7 @@ Tasks:
 ◦ The entire overview should be scrollable to handle an indefinite number of burgers /
 drinks.
 
-X If a burger is currently available or not can be determined based on the provided
+◦ If a burger is currently available or not can be determined based on the provided
 availability dates.
 
 ◦ When clicking a burger or drink, the detail page should appear.
