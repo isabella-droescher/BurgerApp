@@ -36,3 +36,6 @@ drinks.
 availability dates.
 
 ◦ When clicking a burger or drink, the detail page should appear.
+
+
+![alt text](OverviewScreen1.png)
