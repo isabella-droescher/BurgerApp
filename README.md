@@ -36,6 +36,15 @@ drinks.
 availability dates.
 
 ◦ When clicking a burger or drink, the detail page should appear.
+---------------------------
 
 
-![alt text](OverviewScreen1.png)
+OverviewScreen: 
+---------------------------
+![alt text](app-screenshots/OverviewScreen1.png)
+![alt text](app-screenshots/OverviewScreen2.png)
+
+DetailScreen: 
+---------------------------
+![alt text](app-screenshots/DetailScreenBurger.png)
+![alt text](app-screenshots/DetailScreenDrinks.png)
